@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MostraPlayStation" />
-        <activity android:name=".Playstation"></activity>
+        <activity android:name=".MostraPlayStation" android:theme="@style/Tema.SBarra" />
+        <activity android:name=".Playstation" android:theme="@style/Tema.SBarra"></activity>
     </application>
 
 </manifest>
