@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".Splash">
 
     <ImageView
@@ -12,15 +13,16 @@
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="210dp"
-        android:src="@drawable/playstation"/>
+        android:src="@drawable/playstation" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Playstation"
-        android:textStyle="bold"
         android:fontFamily="sans-serif-black"
-        android:textColor="@color/black"
         android:gravity="center"
-        android:textSize="30sp"/>
+        android:text="Playstation"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
